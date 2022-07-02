@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+
+.ContainerProjects__Cards{
+    height: 200px;
+    width: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    margin: 1rem 0;
+}
+
+.ContainerProjects__Cards_White{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    transition: background 1s;
+}
+
+
+.ContainerProjects__Cards_Title{
+    font-family: 'Manrope', sans-serif;
+
+    letter-spacing: 2px;
+    font-size: 35px;
+    position: relative;
+    top: -25px;
+    color: red;
+    visibility: hidden;
+}
+
+.ContainerProjects__Cards_Tecno{
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    position: relative;
+    top: -15px;
+    visibility: hidden;
+
+}
+
+.ContainerProjects__Cards_Link{
+    background-color: transparent;
+    border: 1px solid red;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    position: relative;
+    top: 0;
+    color: red;
+    padding: 5px 10px;
+    border-radius: 0px 10px;
+    text-decoration: none;
+    font-size: 20px;
+    visibility: hidden;
+    transition: background 1s;
+    cursor: pointer;
+}
+
+@keyframes Title{
+    0%{
+        top: -60px;
+    }
+    100%{
+        top: -25px;
+    }
+}
+@keyframes Tecno{
+    0%{
+        left: -100px;
+    }
+    100%{
+        left: 0px;
+    }
+}
+@keyframes Link{
+    0%{
+        top: 50px;
+    }
+    100%{
+        top: 0;
+    }
+}
+
+.ContainerProjects__Cards_White:hover > .ContainerProjects__Cards_Title{
+    visibility: visible;
+    animation-name: Title;
+    animation-duration: 1.5s;
+}  
+
+.ContainerProjects__Cards_White:hover > .ContainerProjects__Cards_Tecno{
+    visibility: visible;
+    animation-name: Tecno;
+    animation-duration: 1.5s;
+}
+
+.ContainerProjects__Cards_White:hover > .ContainerProjects__Cards_Link{
+    visibility: visible;
+    animation-name: Link;
+    animation-duration: 1.5s;
+}
+
+.ContainerProjects__Cards_White:hover{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.ContainerProjects__Cards_Link:hover{
+    background-color: red;
+    color: white;
+}
+
+

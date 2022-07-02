@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Tajawal&display=swap');
+
+
+.Container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem 0;
+}
+
+.Title{
+    font-family: 'Tajawal', sans-serif;
+    font-size: 3rem;
+    transition-duration: 1s;
+}
+
+.hrAbout{
+    width: 250px;
+    height: 5px;
+    background-color: black;
+    margin-bottom: 3rem;
+}
+
+/* ---------------- ABOUT-ME ---------------- */
+
+.ContainerAboutMe{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+.ContainerAboutMe__img{
+    height: 340px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+
+
+.ContainerAboutMe__info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    padding: 2rem;
+}
+
+.ContainerAboutMe__info p{
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    font-family: 'Lucida Sans';
+    color: rgb(0, 0, 0);
+}
+
+/* ---------------- FEATURES ---------------- */
+
+.ContainerFeatures{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 2rem auto;
+}
+
+
+/* ---------------- SKILLS ---------------- */
+
+.ContainerSkills{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 968px){
+    
+    /* ------ AboutMe ------ */
+
+    .ContainerAboutMe{
+        width: 100%;
+    }
+    .ContainerAboutMe__info{
+        min-width: 100%;
+    }
+    .ContainerAboutMe__info p{
+        width: 100%;
+    }
+
+    /* ------ Skills ------ */
+
+    .ContainerSkills{
+        width: 100%;
+    }
+}
+
