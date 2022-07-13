@@ -26,9 +26,8 @@ const Form = () => {
             let { campo: email } = correo
             let { campo: message } = mensaje
             try {
-                console.log(name, email, message)
-                // await axios.post("https://conservative-mountie-61739.herokuapp.com/send-email", {
-                await axios.post("http://localhost:3002/send-email", {
+                // await axios.post("http://localhost:3002/send-email", {
+                await axios.post("https://conservative-mountie-61739.herokuapp.com/send-email", {
                     name, email, message
                 })
             } catch (error) {
