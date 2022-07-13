@@ -1,15 +1,15 @@
 import style from './skills.module.css';
 
-function Skills({logo, porcentaje, name}) {
+function Skills({ logo, porcentaje, name, animated }) {
 
     const styleBar = {
         width: `${porcentaje}%`,
     }
 
-    return ( 
-        <div className={style.ContainerSkills__Cards}>
+    return (
+        <div className={style.ContainerSkills__Cards} data-aos={animated}>
             <div className={style.ContainerSkills__Cards_logo}>
-                {logo} 
+                {logo}
             </div>
             <div className={style.ContainerSkills__Cards_bar}>
                 <div style={styleBar} className={style.ContainerSkills__Cards_barColor}><h1 className={style.ContainerSkills__Cards_Text}>{name}</h1></div>

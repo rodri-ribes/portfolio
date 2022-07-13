@@ -17,23 +17,8 @@
     padding: 10px;
     background-image: linear-gradient( 99deg,  rgba(115,18,81,1) 10.6%, rgba(28,28,28,1) 118% );
     border-radius: 20px;
-    animation-name: life;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate-reverse;
-    animation-timing-function: ease-in-out;
 }
 
-@keyframes life{
-    0%{
-        transform: translateY(0rem);
-
-    }
-    100%{
-        transform: translateY(1.5rem);
-
-    }
-}
 
 
 .ContainerFeatures__Card_Icon{
@@ -67,9 +52,9 @@
 
 .ContainerFeatures__Card_Title{
     font-family: 'Baloo 2', cursive;
-   font-size: 2rem;
-   letter-spacing: 3px;
-   color: white;
+    font-size: 2rem;
+    letter-spacing: 3px;
+    color: white;
 }
 
 .ContainerFeatures__Card_Texto{

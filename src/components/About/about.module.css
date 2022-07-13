@@ -22,7 +22,12 @@
     height: 5px;
     background-color: black;
     margin-bottom: 3rem;
+    transform: translateX(-100vh);
+
 }
+
+
+
 
 /* ---------------- ABOUT-ME ---------------- */
 
@@ -36,8 +41,8 @@
 }
 
 .ContainerAboutMe__img{
-    height: 340px;
-    width: 200px;
+
+    width: 220px;
     margin: 0 auto;
 }
 

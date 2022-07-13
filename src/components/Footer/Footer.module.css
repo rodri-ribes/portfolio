@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap');
 
 .FooterContainer{
     width: 100%;
@@ -13,7 +14,7 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     width: 100%;
     margin: auto;
     max-width: 1300px;
@@ -27,28 +28,10 @@
 
 .Terms p{
     color: white;
-    font-family: "Ubuntu";
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-family: 'Oooh Baby', cursive;
     padding: 0 10px
-}
-
-.Social{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    padding-right: 0;
-}
-
-.Icono{
-    color: white;
-    font-size: 2.5rem;
-    margin: 0 10px;
-}
-
-.Icono:hover{
-    transform: scale(1.2);
-    transition: transform 500ms linear;
 }
 
 @media screen and (max-width: 968px){
@@ -64,13 +47,4 @@
         text-align: center;
     }
 
-    .Social{
-        order: 1;
-        margin: 10px;
-        width: 100%;
-    }
-
-    .Icono{
-        margin: 0 20px;
-    }
 }
