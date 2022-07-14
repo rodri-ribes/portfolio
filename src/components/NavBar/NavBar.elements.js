@@ -5,8 +5,7 @@ export const Portada = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url('/img/fondo.jpg');
-    background-repeat: no-repeat;
+    background-color: black;
     width: 100%;
     height: 100vh;
 
@@ -92,8 +91,7 @@ export const Portada = styled.div`
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-image: url('/img/fondo.jpg');
-        background-repeat: no-repeat;
+        background-color: black;
         width: 100%;
         height: 100vh;
 
@@ -145,7 +143,7 @@ export const Menu = styled.ul`
         height: 100vh;
         position: absolute;
         top: 70px;
-        left: ${({click}) => (click ? 0 : "-100%")};
+        left: ${({ click }) => (click ? 0 : "-100%")};
         flex-direction: column;
         transition: 0.5s all ease-in;
         background-color: #1d363f;

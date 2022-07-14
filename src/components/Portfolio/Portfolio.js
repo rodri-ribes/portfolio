@@ -9,13 +9,13 @@ function Portfolio() {
     const ProjectsCard = [
         { Title: "Countrys-App", Technology: "ReactJS, ReduxJS, Express, Postgresql, Sequelize", Img: "countrys", Animacion: 'flip-left', Link: "https://countrys-ribes.netlify.app/" },
         { Title: "Wheater-App", Technology: "ReactJS, ReduxJS", Img: "wheater", Animacion: 'flip-down', Link: "https://weather-ribes.netlify.app/" },
-        { Title: "Pagina", Technology: "JavaScript, Node.Js", Img: "web01", Animacion: 'flip-right' },
-        { Title: "Pagina", Technology: "JavaScript, Node.Js", Img: "web01", Animacion: 'flip-left' },
-        { Title: "Pagina", Technology: "JavaScript, Node.Js", Img: "web01", Animacion: 'flip-down' },
-        { Title: "Pagina", Technology: "JavaScript, Node.Js", Img: "web01", Animacion: 'flip-right' },
-        { Title: "Pagina", Technology: "JavaScript, Node.Js", Img: "web01", Animacion: 'flip-left' },
-        { Title: "Pagina", Technology: "JavaScript, Node.Js", Img: "web01", Animacion: 'flip-down' },
-        { Title: "Pagina", Technology: "JavaScript, Node.Js", Img: "web01", Animacion: 'flip-right' },
+        // { Title: "Pagina", Technology: "JavaScript, Node.Js", Img: "web01", Animacion: 'flip-right' },
+        // { Title: "Pagina", Technology: "JavaScript, Node.Js", Img: "web01", Animacion: 'flip-left' },
+        // { Title: "Pagina", Technology: "JavaScript, Node.Js", Img: "web01", Animacion: 'flip-down' },
+        // { Title: "Pagina", Technology: "JavaScript, Node.Js", Img: "web01", Animacion: 'flip-right' },
+        // { Title: "Pagina", Technology: "JavaScript, Node.Js", Img: "web01", Animacion: 'flip-left' },
+        // { Title: "Pagina", Technology: "JavaScript, Node.Js", Img: "web01", Animacion: 'flip-down' },
+        // { Title: "Pagina", Technology: "JavaScript, Node.Js", Img: "web01", Animacion: 'flip-right' },
     ]
 
     return (

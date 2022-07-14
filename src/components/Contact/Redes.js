@@ -7,20 +7,20 @@ export default function Redes() {
         <div className="Container">
             <ul className="ContainerUl">
                 <li>
-                    <a href="https://github.com/rodri-ribes">
-                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                    <a href="https://github.com/rodri-ribes" target="_blank" rel="noreferrer">
+                        <i></i>
                         <span> <FaGithub /> Github</span>
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.linkedin.com/in/rodrigo-ribes-9793b5207/">
-                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    <a href="https://www.linkedin.com/in/rodrigo-ribes/" target="_blank" rel="noreferrer">
+                        <i></i>
                         <span> <FaLinkedin /> Linkedin</span>
                     </a>
                 </li>
                 <li>
-                    <a href="https://api.whatsapp.com/send?phone=+5492246517581&text=Hi%20Rodrigo,%20I%20have%20a%20proposal%20to%20offer%20you">
-                        <i class="fa fa-google-plus" aria-hidden="true"></i>
+                    <a href="https://api.whatsapp.com/send?phone=+5492246517581&text=Hi%20Rodrigo,%20I%20have%20a%20proposal%20to%20offer%20you" target="_blank" rel="noreferrer">
+                        <i></i>
                         <span> <FaWhatsapp /> WhatsApp</span>
                     </a>
                 </li>

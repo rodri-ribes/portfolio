@@ -19,8 +19,6 @@
     border-radius: 20px;
 }
 
-
-
 .ContainerFeatures__Card_Icon{
     background-color: black;
     width: auto;
@@ -28,26 +26,10 @@
     padding: 10px;
 }
 
-@keyframes Life{
-    0%{
-        transform: scale(1.1);
-    }
-    50%{
-        transform: scale(1.2);
-    }
-    100%{
-        transform: scale(1.3);
-    }
-}
-
 
 .ContainerFeatures__Card_Icon svg{
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: white;
-    animation-name: Life;
-    animation-iteration-count: infinite;
-    animation-direction: alternate-reverse;
-    animation-duration: 3s;
 }
 
 .ContainerFeatures__Card_Title{

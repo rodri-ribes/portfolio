@@ -17,11 +17,10 @@ function App() {
   useEffect(() => {
     Aos.init({
       duration: 3000,
-      once: true
+      once: true,
+      disable: window.innerWidth < 969 ? true : false
     })
   }, [])
-
-
 
   return (
     <>
