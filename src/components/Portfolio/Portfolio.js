@@ -7,9 +7,9 @@ import Projects from './Projects/Projects';
 function Portfolio() {
 
     const ProjectsCard = [
-        { Title: "Countrys-App", Technology: "ReactJS, ReduxJS, Express, Postgresql, Sequelize", Img: "countrys", Animacion: 'flip-left', Link: "https://countrys-ribes.netlify.app/" },
-        { Title: "Wheater-App", Technology: "ReactJS, ReduxJS", Img: "wheater", Animacion: 'flip-down', Link: "https://weather-ribes.netlify.app/" },
-        // { Title: "Pagina", Technology: "JavaScript, Node.Js", Img: "web01", Animacion: 'flip-right' },
+        { Title: "Projects-App", Technology: "ReactJS, ReduxJS, NodeJS, Express, Sequelize, PostgreSQL, Encrypt, JWT", Img: "proyects", Animacion: 'flip-left', Link: "https://projects-ribes.netlify.app/" },
+        { Title: "Countrys-App", Technology: "ReactJS, ReduxJS, Express, Postgresql, Sequelize", Img: "countrys", Animacion: 'flip-down', Link: "https://countrys-ribes.netlify.app/" },
+        { Title: "Wheater-App", Technology: "ReactJS, ReduxJS", Img: "wheater", Animacion: 'flip-right', Link: "https://weather-ribes.netlify.app/" },
         // { Title: "Pagina", Technology: "JavaScript, Node.Js", Img: "web01", Animacion: 'flip-left' },
         // { Title: "Pagina", Technology: "JavaScript, Node.Js", Img: "web01", Animacion: 'flip-down' },
         // { Title: "Pagina", Technology: "JavaScript, Node.Js", Img: "web01", Animacion: 'flip-right' },
