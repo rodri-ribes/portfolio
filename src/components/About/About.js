@@ -59,7 +59,7 @@ function About() {
             <div className={style.ContainerAboutMe}>
                 <div className={style.ContainerAboutMe__info}>
                     <img className={style.ContainerAboutMe__img} src="/img/perfil.jpg" alt="perfil" data-aos="flip-right" />
-                    <p data-aos="fade-up">I'm a Full-Stack Developer, but I stand out more in the Front End, I am passionate about the user interface, animations and the creation of intuitive and dynamic user experiences.</p>
+                    <p data-aos="fade-up">I am a Full-Stack Developer, I like the Back End and the Front End, but I stand out more in the Front End, I am passionate about the user interface, animations and the creation of intuitive and dynamic user experiences.</p>
                 </div>
 
                 <div className={style.ContainerSkills}>
