@@ -44,8 +44,9 @@ function About() {
         { Logo: <IoLogoNodejs />, Porcentaje: 70, Name: 'Node', Animacion: 'fade-right' },
         { Logo: <SiExpress />, Porcentaje: 70, Name: 'Express', Animacion: 'fade-left' },
         { Logo: <SiSequelize />, Porcentaje: 70, Name: 'Sequelize', Animacion: 'fade-right' },
-        { Logo: <SiWordpress />, Porcentaje: 85, Name: 'Wordpress', Animacion: 'fade-left' },
-        { Logo: <SiAdobephotoshop />, Porcentaje: 80, Name: 'PhotoShop', Animacion: 'fade-right' },
+        { Logo: <SiSequelize />, Porcentaje: 80, Name: 'PostgreSQL', Animacion: 'fade-left' },
+        { Logo: <SiWordpress />, Porcentaje: 85, Name: 'Wordpress', Animacion: 'fade-right' },
+        { Logo: <SiAdobephotoshop />, Porcentaje: 80, Name: 'PhotoShop', Animacion: 'fade-left' },
     ];
 
 
