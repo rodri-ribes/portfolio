@@ -22,6 +22,7 @@ import { SiExpress } from "react-icons/si"
 import { SiAdobephotoshop } from "react-icons/si"
 import { SiSequelize } from "react-icons/si"
 import { SiWordpress } from "react-icons/si"
+import { SiPostgresql } from "react-icons/si"
 import { IoLogoNodejs } from "react-icons/io"
 
 
@@ -44,7 +45,7 @@ function About() {
         { Logo: <IoLogoNodejs />, Porcentaje: 70, Name: 'Node', Animacion: 'fade-right' },
         { Logo: <SiExpress />, Porcentaje: 70, Name: 'Express', Animacion: 'fade-left' },
         { Logo: <SiSequelize />, Porcentaje: 70, Name: 'Sequelize', Animacion: 'fade-right' },
-        { Logo: <SiSequelize />, Porcentaje: 80, Name: 'PostgreSQL', Animacion: 'fade-left' },
+        { Logo: <SiPostgresql />, Porcentaje: 80, Name: 'PostgreSQL', Animacion: 'fade-left' },
         { Logo: <SiWordpress />, Porcentaje: 85, Name: 'Wordpress', Animacion: 'fade-right' },
         { Logo: <SiAdobephotoshop />, Porcentaje: 80, Name: 'PhotoShop', Animacion: 'fade-left' },
     ];
