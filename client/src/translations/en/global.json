@@ -1,0 +1,98 @@
+{
+    "header": {
+        "hi": "Hi, I'm Rodrigo",
+        "iam": "I'm",
+        "developer": "Developer",
+        "btn-read-about": "Read more about me",
+        "btn-see-projects": "See Projects"
+    },
+    "navbar": {
+        "about": "ABOUT ME",
+        "service": "SERVICES",
+        "skills": "SKILLS",
+        "portfolio": "PORTFOLIO",
+        "contact": "CONTACT"
+    },
+    "about": {
+        "about": "Full Stack Developer, specialized in interface design. My passion lies in designing scalable projects, where animations and the creation of intuitive and dynamic user experiences are my primary focus. Always striving for innovation and excellence in every project.",
+        "btn-resume": "Resume",
+        "download": "Download"
+    },
+    "skills": {
+        "label-programming-languages": "Programming languages",
+        "label-bookstores": "Bookstores",
+        "label-frameworks": "Frameworks",
+        "label-database": "DATA BASE",
+        "label-others": "Applications"
+    },
+    "services": {
+        "title-freelance": "Do you have a business venture and want to take it to the next level ?",
+        "freelance-description-one": "Visit my page",
+        "freelance-description-two": "I offer you the best services such as Design, Maintenance, Hosting and SEO/SEM. Explore a wide variety of templates, I will help you boost your business and take it to the next level!",
+        "title-company": "Are you a company recruiter ?",
+        "company-description-one": "Why would it be an excellent decision to consider me? I have the ability to design complex and intuitive applications that adapt to growth over time. My specialization lies in interface development, but I also have experience in creating efficient and secure servers. I enjoy collaborating in teams and sharing ideas to achieve common goals. If you're interested, I'd be delighted to",
+        "company-description-two": "Coordinate an Interview",
+        "company-description-three": "to explore whether I am the right candidate for the position.",
+        "title-fast": "Fast",
+        "description-fast": "Fast load times and lag free interaction, my highest priority.",
+        "title-responsive": "Responsive",
+        "description-responsive": "My layouts will work on any device, big or small.",
+        "title-dynamic": "Dynamic",
+        "description-dynamic": "Websites don't have to be static, I love making pages come to life."
+    },
+    "filter": {
+        "all": "All",
+        "projects": "Projects",
+        "templates": "Templates",
+        "apps": "Applications",
+        "components": "Components",
+        "filterbycategory": "Filter by Category:",
+        "filterbytechnology": "Filter by Technology:",
+        "hideFilter": "Hide Filter",
+        "showFilter": "Show Filter"
+    },
+    "projects": {
+        "error": "There are no projects with the selected technology, but soon there will be 👌🏼",
+        "type": "PROJECT",
+        "plural": "PROJECTS",
+        "description-mateek": "Create an e-commerce specialized in clothing. The development process of this project required more than 4 months of dedication, and although it is not yet in its final version, there are areas of opportunity for its continuous improvement.",
+        "description-top-gym": "The application is a SPA (single page application) created with React v18.2.0, the app is focused for a gym to show their training programs and at the same time that the user can register by email.",
+        "description-wiki-games": "The application is a SPA (single page application), it is used to view information on all published games, apart from viewing detailed information on developers, platforms and stores. Rawg.io api was used",
+        "description-search-app": "The application is a SPA (single page application), you can see information about your favorite games, movies and series. the api www.omdbapi.com was used",
+        "description-express-market": "The application is a SPA (Single Page Application), it is a B2C ecommerce, where users can sell and buy different products, you can also have a virtual wallet",
+        "suspend": "SUSPENDED PROJECT",
+        "ongoingProject": "ONGOING PROJECT",
+        "description-bookitech": "The application is a SPA (Single Page Application), it is an ecommerce of books, where you can buy, comment and leave your review about the book, the application was created by 7 developers",
+        "description-wheater-app": "The application is a SPA (Single Page Application), it was created with the only functionality to obtain the weather of a country through the OpenWeatherMap API"
+    },
+    "templates": {
+        "error": "There are no templates with the selected technology, but there will be soon 👌🏼",
+        "type": "TEMPLATE",
+        "plural": "TEMPLATES",
+        "description-kfc": "Design a template of one of the fast food chains, KFC. I did it to practice and improve my designs.",
+        "description-technology-ecommerce": "Design a technology E-commerce template."
+    },
+    "apps": {
+        "type": "APP",
+        "plural": "APPS",
+        "description-ribescompress": "I developed an application that allows you to compress images and download them in two formats: .JPEG OR .PNG"
+    },
+    "components": {
+        "error": "There are no components with the selected technology, but soon there will be 👌🏼",
+        "type": "COMPONENT",
+        "title-socialNetworks": "Social Networks",
+        "description-socialNetworks": "Social Media Components"
+    },
+    "contact": {
+        "title": "Contact",
+        "text": "Do you have something to propose to me? Contact me!",
+        "social": "You can contact me at",
+        "input-name": "Name",
+        "input-message": "Message",
+        "btn-send": "Send",
+        "btn-sent": "Sent...",
+        "error-name": "Name is required.",
+        "error-email": "Email is required.",
+        "error-message": "Message is required."
+    }
+}

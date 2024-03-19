@@ -1,0 +1,32 @@
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    .container__social__group{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        width: 45px;
+        height: 45px;
+        cursor: pointer;
+        overflow: hidden;
+        text-decoration: none;
+        transition: all 800ms ease;
+        i{
+            font-size: 1.5rem;
+            color: var(--element_color);
+        }
+    }
+}
+
+@media screen and (max-width: 968px){
+    .container{
+        width: 100%;
+        .container__social__group{
+            min-width: 50px;
+        }
+    }
+}

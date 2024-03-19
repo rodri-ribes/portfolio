@@ -1,0 +1,98 @@
+{
+    "header": {
+        "hi": "Hola, soy Rodrigo",
+        "iam": "Soy",
+        "developer": "Desarrollador",
+        "btn-read-about": "Leer Sobre Mi",
+        "btn-see-projects": "Ver Proyectos"
+    },
+    "about": {
+        "about": "Desarrollador Full Stack, especializado en la creación de interfaces. Mi pasión radica en diseñar proyectos escalables, donde las animaciones y la creación de experiencias de usuario intuitivas y dinámicas son mi enfoque principal. Siempre buscando la innovación y la excelencia en cada proyecto.",
+        "btn-resume": "Curriculum Vitae",
+        "download": "Descargar"
+    },
+    "navbar": {
+        "about": "SOBRE MÍ",
+        "service": "SERVICIOS",
+        "skills": "TECNOLOGÍAS",
+        "portfolio": "PORTAFOLIO",
+        "contact": "CONTACTO"
+    },
+    "skills": {
+        "label-programming-languages": "Lenguajes de Programación",
+        "label-bookstores": "Librerias",
+        "label-frameworks": "Frameworks",
+        "label-database": "Base de Datos",
+        "label-others": "Aplicaciónes"
+    },
+    "services": {
+        "title-freelance": "¿ Tienes un emprendimiento y deseas llevarlo al siguiente nivel ?",
+        "freelance-description-one": "Visita mi pagina",
+        "freelance-description-two": "Te ofrezco los mejores servicios como Diseño, Mantenimiento, Hosting y SEO/SEM, Explora entre una amplia variedad de plantillas, te ayudare a impulsar tu negocio y llevarlo al siguiente nivel!.",
+        "title-company": "¿ Eres reclutador de una empresa ?",
+        "company-description-one": "¿ Por qué sería una excelente decisión considerarme ? Tengo la capacidad de diseñar aplicaciones complejas e intuitivas que se adaptan al crecimiento a lo largo del tiempo. Mi especialización se encuentra en el desarrollo de interfaces, pero también tengo experiencia en la creación de servidores eficientes y seguros. Disfruto colaborando en equipos y compartiendo ideas para alcanzar objetivos comunes. Si estás interesado, estaría encantado de",
+        "company-description-two": "Coordinar una Entrevista",
+        "company-description-three": "para explorar si soy el candidato adecuado para la posición.",
+        "title-fast": "Rapido",
+        "description-fast": "Tiempos de carga rápidos e interacción sin demoras, mi máxima prioridad.",
+        "title-responsive": "Responsive",
+        "description-responsive": "Mis diseños funcionarán en cualquier dispositivo, grande o pequeño.",
+        "title-dynamic": "Dinamico",
+        "description-dynamic": "Los sitios web no tienen que ser estáticos, me encanta hacer que las páginas cobren vida."
+    },
+    "filter": {
+        "all": "Todos",
+        "projects": "Proyectos",
+        "templates": "Plantillas",
+        "apps": "Aplicaciónes",
+        "components": "Componentes",
+        "filterbycategory": "Filtrar por Categoria:",
+        "filterbytechnology": "Filtrar por Tecnología:",
+        "hideFilter": "Ocultar Filtros",
+        "showFilter": "Mostrar Filtros"
+    },
+    "projects": {
+        "error": "No hay proyectos con la tecnología seleccionada, pero pronto lo habrá 👌🏼",
+        "type": "PROYECTO",
+        "plural": "PROYECTOS",
+        "description-mateek": "Realice un e-commerce especializado en indumentaria. El proceso de desarrollo de este proyecto demandó más de 4 meses de dedicación, y aunque aún no se encuentra en su versión definitiva, existen áreas de oportunidad para su mejora continua.",
+        "description-top-gym": "La aplicación es una SPA (aplicación de una sola página) la app esta enfocada para un gimnasio para mostrar sus programas de entrenamiento y a la vez que el usuario se pueda inscribir mediante un correo.",
+        "description-wiki-games": "La aplicación es una SPA (aplicación de una sola página), se utiliza para ver información sobre todos los juegos publicados, además de ver información detallada sobre desarrolladores, plataformas y tiendas. Se utilizó la API Rawg.io",
+        "description-search-app": "La aplicación es una SPA (aplicación de una sola página), puedes ver información de tus juegos, películas y series favoritas. se utilizó la api www.omdbapi.com",
+        "description-express-market": "La aplicación es un SPA (Single Page Application), es un ecommerce B2C, donde los usuarios pueden vender y comprar diferentes productos, también puedes tener una billetera virtual",
+        "suspend": "PROYECTO SUSPENDIDO",
+        "ongoingProject": "PROYECTO EN CURSO",
+        "description-bookitech": "La aplicación es un SPA (Single Page Application), es un ecommerce de libros, donde puedes comprar, comentar y dejar tu reseña sobre el libro, la aplicación fue creada por 7 desarrolladores",
+        "description-wheater-app": "La aplicación es una SPA (Single Page Application), fue creada con la única funcionalidad de obtener el clima de un país a través de la API de OpenWeatherMap"
+    },
+    "templates": {
+        "error": "No hay plantillas con la tecnología seleccionada, pero pronto habrá 👌🏼",
+        "type": "PLANTILLA",
+        "plural": "PLANTILLAS",
+        "description-kfc": "Diseñe una plantilla de una de las cadenas de comida rapida, KFC. La realice para practicar y mejorar mis diseños.",
+        "description-technology-ecommerce": "Diseña una plantilla de un E-commerce de tecnología."
+    },
+    "apps": {
+        "type": "APP",
+        "plural": "APPS",
+        "description-ribescompress": "Desarolle una aplicación que te permite comprimir imagenes y descargala en dos formatos .JPEG O .PNG"
+    },
+    "components": {
+        "error": "No hay componentes con la tecnología seleccionada, pero pronto lo habrá 👌🏼",
+        "type": "COMPONENTE",
+        "title-socialNetworks": "Redes Sociales",
+        "description-socialNetworks": "Componente de redes sociales"
+    },
+    "contact": {
+        "title": "Contacto",
+        "text": "¿Tienes algo que proponerme? ¡Contáctame!",
+        "social": "Me puedes contactar en",
+        "input-name": "Nombre",
+        "input-message": "Mensaje",
+        "btn-send": "Enviar",
+        "btn-sent": "Enviado...",
+        "error-name": "El nombre es requerido.",
+        "error-email": "El Email es requerido.",
+        "error-message": "El mensaje es requerido."
+    }
+}

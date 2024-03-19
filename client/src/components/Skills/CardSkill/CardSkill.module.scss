@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+    cursor: pointer;
+    // background-position: 0 -100px;
+    background-size: cover;
+    transition: all .5s;
+    width: 100%;
+    .container__wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        background-color: rgba(0, 0, 0, 0.500);
+        backdrop-filter: blur(2px);
+        width: 100%;
+        height: 100%;
+        padding: 1rem;
+        transition: all .3s;
+
+        h4{
+            font-size: 1.7rem;
+            font-family: sans-serif;
+            color: white;
+            // display: flex;
+            opacity: 1;
+            transition: all .3s;
+        }
+
+        .container__wrapper__content{
+            opacity: 0;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            flex-wrap: wrap;
+            width: 100%;
+            transition: all .3s;
+
+            
+            .container__wrapper__content__group{
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                width: 50%;
+                font-size: 1.5rem;
+                color: white;
+                margin-bottom: .5rem;
+                // outline: 1px solid yellow;
+                p{
+                    margin-left: 1rem;
+                    font-family: sans-serif;
+                }
+            }
+        }
+    }
+
+    &:nth-child(1){
+        grid-row: span 2;
+    }
+    
+    &:nth-child(3){
+        grid-row: span 1;
+        grid-column: 1;
+    }
+
+    &:nth-child(2){
+        grid-row: span 1;
+    }
+
+    &:nth-child(4){
+        grid-row: span 2;
+    }
+
+    &:nth-child(5){
+       grid-column: span 2;
+    }
+
+    &:hover{
+        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.800);
+        .container__wrapper{
+            h4{
+                opacity: 0;
+                position: absolute;
+            }
+
+            .container__wrapper__content{
+                opacity: 1;
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 968px){
+
+    .container{
+        min-width: 100%;   
+        height: 200px;
+        .container__wrapper{
+            height: 200px;
+        }
+    }
+}
