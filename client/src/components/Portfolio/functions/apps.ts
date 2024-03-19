@@ -1,6 +1,7 @@
 import { TFunction } from "i18next";
+import { ProjectCard } from "../CardProject/CardProject";
 
-export default function apps(translation: TFunction) {
+export default function apps(translation: TFunction): ProjectCard[] {
   return [
     {
       title: "E-commerce Dress",
@@ -12,6 +13,7 @@ export default function apps(translation: TFunction) {
       linkGithub: "https://github.com/rodri-ribes/ecommerce-dress-react",
       text: translation("projects.description-mateek"),
       deployed: "finished",
+      templateimg: '',
       images: [
         "projects/mateek/1.jpeg",
         "projects/mateek/2.jpeg",
@@ -30,6 +32,7 @@ export default function apps(translation: TFunction) {
       linkGithub: "https://github.com/rodri-ribes/RibesCompress",
       text: translation("apps.description-ribescompress"),
       deployed: "finished",
+      templateimg: '',
       images: ["apps/ribescompress/1.jpg"],
     },
     {
@@ -44,6 +47,7 @@ export default function apps(translation: TFunction) {
       templateimg:
         "./img/slider/templates/technology-ecommerce/templateimg.jpg",
       deployed: "finished",
+      
       images: [
         "templates/technology-ecommerce/technology-ecommerce-1.jpg",
         "templates/technology-ecommerce/technology-ecommerce-2.jpg",
@@ -82,6 +86,8 @@ export default function apps(translation: TFunction) {
       linkGithub: "https://github.com/rodri-ribes/top-gym",
       text: translation("projects.description-top-gym"),
       deployed: "finished",
+      templateimg: '',
+
       images: [
         "templates/top-gym/top-gym-1.jpg",
         "templates/top-gym/top-gym-2.jpg",
@@ -98,6 +104,8 @@ export default function apps(translation: TFunction) {
       linkGithub: "https://github.com/rodri-ribes/games-app",
       text: translation("projects.description-wiki-games"),
       deployed: "finished",
+      templateimg: '',
+
       images: [
         "projects/wiki-games/wiki-games-1.jpg",
         "projects/wiki-games/wiki-games-2.jpg",
@@ -121,6 +129,8 @@ export default function apps(translation: TFunction) {
       linkGithub: "https://github.com/rodri-ribes/ExpressMarket",
       text: translation("projects.description-express-market"),
       deployed: translation("projects.suspend"),
+      templateimg: '',
+
       images: [
         "projects/express-market/express-market-1.jpg",
         "projects/express-market/express-market-2.jpg",
@@ -137,6 +147,8 @@ export default function apps(translation: TFunction) {
       linkGithub: "https://github.com/rodri-ribes/search-app",
       text: translation("projects.description-search-app"),
       deployed: "finished",
+      templateimg: '',
+
       images: [
         "projects/search-app/search-app-1.jpg",
         "projects/search-app/search-app-2.jpg",
@@ -154,6 +166,8 @@ export default function apps(translation: TFunction) {
       linkGithub: "https://github.com/rodri-ribes/BookITech",
       text: translation("projects.description-bookitech"),
       deployed: "finished",
+      templateimg: '',
+
       images: [
         "projects/booki-tech/booki-tech-1.jpg",
         "projects/booki-tech/booki-tech-2.jpg",

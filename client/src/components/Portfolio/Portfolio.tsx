@@ -34,7 +34,7 @@ function Portfolio() {
   const handleOnChange = (name: string, value: string) => {
     setTerm((prev) => ({
       ...prev,
-      [name]: prev[name] === value ? '' : value
+      [name]: value
     }))
   }
 

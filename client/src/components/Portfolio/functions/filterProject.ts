@@ -1,5 +1,10 @@
-export default function filterProject(term) {
-  return function (x) {
+import { ProjectCard } from "../CardProject/CardProject";
+
+export default function filterProject(term: {
+  technology: string
+  category: string
+}) {
+  return function (x: ProjectCard) {
     return (
       (x.technology.includes(term.technology) ||
         term.technology.includes("Todos") ||
