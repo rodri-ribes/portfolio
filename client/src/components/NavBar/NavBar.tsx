@@ -8,7 +8,7 @@ import { handleClick } from './functions/handleClick'
 import { useTranslation } from 'react-i18next'
 
 import Typed from 'typed.js'
-import ToggleDarkMode from '../ToggleDarkMode/ToggleDarkMode'
+// import ToggleDarkMode from '../ToggleDarkMode/ToggleDarkMode'
 
 const NavBar = (): JSX.Element => {
   const { setting } = usePageSetting()
@@ -131,7 +131,7 @@ const NavBar = (): JSX.Element => {
             </li>
           </ul>
           <div className={style.container__wrapper__items}>
-            <ToggleDarkMode darkMode={darkMode} setDarkMode={setDarkMode} />
+            {/* <ToggleDarkMode darkMode={darkMode} setDarkMode={setDarkMode} /> */}
             <button
               onClick={() => {
                 handleOnMode(setDarkMode)

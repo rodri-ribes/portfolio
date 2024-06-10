@@ -130,7 +130,7 @@
                 border: none;
                 cursor: pointer;
                 color: var(--element_color);
-                display: none;
+                display: flex;
                 i{
                     font-size: 1.7rem;
                 }
@@ -231,7 +231,6 @@
                 width: 15%;
                 // position: relative;
                 button{
-                    display: flex;
                     i{
                         font-size: 2rem;
                     }
